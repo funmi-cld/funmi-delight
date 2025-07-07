@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 8px;
+    background-color: blue;
+    color: white;
+}
