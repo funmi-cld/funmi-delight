@@ -12,6 +12,72 @@ label{
     display: inline-block;
     width: 100px;
     margin-bottom: 8px;
-    background-color: blue;
-    color: white;
 }
+
+.div-one{
+    width: 300px;
+    height: 500px;
+    background-color: #FFCC28;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.div-one h1{
+    color: #FF0000;
+    font-size: 45px;
+}
+.div-one p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.div-practice{
+    /* width: 500px; */
+    height: 500px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px; */
+    /* margin-left: 30px; */
+    /* margin-right: 20px; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.div-practice h1{
+    color: #F0BD20;
+    font-size: 45px;
+}
+
+.div-practice p{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: justify; 
+}
+
+.img-div{
+    width: 540px;
+    height: 500px;
+    background-color: #FFCC28;
+}
+
+.img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.txt-div-practice{
+    width: 540px;
+    height: 500px;
+    background-color: #013B65;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-content: center;
+}
+
+
