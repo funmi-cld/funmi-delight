@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Funmi Delight</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6994dbeaf6.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <!-- Header Section Start -->
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <div class="logo">
+          <img src="images/logo.jpeg" alt="logo" />
+          <h1>Funmi Delight</h1>
+        </div>
+        <div class="links">
+          <a class="active" href="/">Home</a>
+          <a href="buffet.html">Buffet</a>
+          <a href="dinner.html">Dinner</a>
+          <a href="outdoor">Outdoor</a>
+        </div>
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </nav>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main section Start -->
     <h1>Welcome to Funmi Delight</h1>
     <h2>Check out our Delicious Meals and Drinks</h2>
     <ol>
@@ -15,11 +41,15 @@
       <li>jollof rice</li>
       <li>fried rice</li>
     </ol>
-
-    <img src="images/download (1).jpeg" alt="barbecue fish" />
-    <img src="images/download (2).jpeg" alt="" />
-    <img src="images/download.jpeg" alt="" />
-
+    
+    <div class="images">
+      <img src="images/barbeque.jpeg" alt="barbecue fish" />
+      <img src="images/peppersoup.jpeg" alt="" />
+      <img src="images/jollof rice.jpeg" alt="" />
+      <img src="images/friedrice.jpeg" alt="" />
+    </div><br>
+    <hr>
+    
     <h2>Check out our Drinks</h2>
     <ul>
       <li>chapman</li>
@@ -28,10 +58,20 @@
       <li>mixed fruits</li>
     </ul>
 
-    <img src="images/download (5).jpeg" alt="" />
-    <img src="images/download (4).jpeg" alt="" />
-    <img src="images/download (3).jpeg" alt="" />
-    <img src="images/images.jpeg" alt="" />
+    <div class="images">
+      <img src="images/download (5).jpeg" alt="" />
+      <img src="images/download (4).jpeg" alt="" />
+      <img src="images/download (3).jpeg" alt="" />
+      <img src="images/images.jpeg" alt="" />
+    </div><br>
+    <hr>
+
+
+    <main>
+    
+      <!-- Main Section Ends -->
+
+      <!-- Footer Section Start -->
 
     <h2>Want to Subscribe to Funmi Delight News letter?</h2>
 
@@ -69,6 +109,16 @@
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error est
           aliquam consectetur cumque sunt culpa eaque ex perspiciatis amet! Vel?
         </p>
+      </div>
+    </div>
+
+    <div class="counter">
+      <h1>Feel free to Set or Cancel your Order</h1>
+      <label id="countLabel" class="label"></label>
+      <div class="button">
+        <button type="submit" id="decreaseBtn">Decrease</button>
+        <button type="submit" id="reset">Reset</button>
+        <button type="submit" id="increaseBtn">Increas</button>
       </div>
     </div>
 
