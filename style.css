@@ -168,113 +168,44 @@ background-color: #199BFE;
     }
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
 
-label{
-    display: inline-block;
-    width: 100px;
-    margin-bottom: 8px;
-}
-
-.div-one{
-    width: 300px;
-    height: 500px;
-    background-color: #FFCC28;
-    padding: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.div-one h1{
-    color: #FF0000;
-    font-size: 45px;
-}
-.div-one p{
-    font-size: 22px;
-    text-align: justify;
-}
-
-.div-practice{
-    height: 500px;
-    background-color: #FFFFFF;
-    padding: 30px;
+/* Counter Section */
+.counter{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    background-color: #1A2E05;
+    color: #9BDB56;
+    border-radius: 0 40px 0 40px;
+    padding: 40px;
+    margin: 20px 0px 40px 0px;
 }
 
-.div-practice h1{
-    color: #F0BD20;
-    font-size: 45px;
+.label{
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: #9BDB56;
+    font-weight: bold;
 }
 
-.div-practice p{
-    color: #FFFFFF;
-    font-size: 20px;
-    text-align: justify; 
-}
-
-.img-div{
-    width: 540px;
-    height: 500px;
-    background-color: #FFCC28;
-}
-
-.img-div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    align-content: center;
-}
-
-.txt-div-practice{
-    width: 540px;
-    height: 500px;
-    background-color: #013B65;
-    padding-left: 25px;
-    padding-right: 25px;
-    align-content: center;
-}
-.div-franchise{
-    width: 100%;
-    height: fit-content;
-    background-color: #F0BD20;
-    padding: 30px;;
+.button{
+    background-color: #9BDB56;
+    padding: 5px;
+    border-radius: 5px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
-.franchise-txt{
-    width: 500px;
-    height: 300px;
+button{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-.div-franchise h1{
-    color: #FF0000;
-    font-size: 45px;
-}
-
-.div-franchise h2{
-    color: #FFFFFF;
-    font-size: 45px;
-}
-
-.img-div-franchise{
-    width: 500px;
-    height: 300px;
-}
-
-.img-div-franchise img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    align-content: center;
-
+.subcription{
+    background-color: #ECEFF1;
 }
 
