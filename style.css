@@ -91,6 +91,12 @@ background-color: #199BFE;
         left: 0;
     }
 
+    .logo h1{
+        font-size: 18px;
+    }
+
+    
+
 }
 
 @media (max-width: 400px){
