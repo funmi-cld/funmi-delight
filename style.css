@@ -14,6 +14,10 @@ header{
     z-index: 999;
 }
 
+main{
+    padding: 20px;
+}
+
 #check{
     display: none;
 }
@@ -30,8 +34,8 @@ nav{
 
 
 .logo img{
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -92,7 +96,7 @@ background-color: #199BFE;
     }
 
     .logo h1{
-        font-size: 18px;
+        font-size: 24px;
     }
 
     
