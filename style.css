@@ -242,7 +242,7 @@ label{
 
 .rider-left{
     width: 50%;
-    height: 45vh;
+    height: 40vh;
     align-content: center;
 }
 
@@ -255,7 +255,7 @@ label{
 .text-two{
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .rider-right{
@@ -279,12 +279,3 @@ footer {
     color: white;
 }
 
-/* media query and responsive decision */
-@media(max-width: 639px) {
-    .links {
-        position: fixed;
-        top: 70px;
-        width: 100%;
-        height: 100vh;
-    }
-}
