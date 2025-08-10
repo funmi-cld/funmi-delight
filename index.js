@@ -35,10 +35,21 @@ button.addEventListener("touchend", stopCounting)
 }
 
 buttonHoldUpdate(increasBtn, () =>{
-    count++
-    updateDisplay()
+    count++;
+    updateDisplay();
 })
 
 buttonHoldUpdate(decreaseBtn, () =>{
-    
+    if (count > 0){
+        count--;
+    }
+    updateDisplay();
 })
+
+reset.addEventListener("click", () =>{
+    count = 0;
+    updateDisplay();
+
+})
+
+
