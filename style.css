@@ -78,6 +78,14 @@ background-color: #199BFE;
         margin-left: 20px;
     }
 
+    .text-one{
+        font-size: 20px;
+    }
+
+    .text-two{
+        font-size: 20px;
+    }
+
     .links{
         position: fixed;
         top: 70px;
@@ -225,7 +233,7 @@ button{
     background-color: #f1f3f4;
 }
 
-label{
+form label{
     display: inline-block;
     width: 100px;
     margin-bottom: 8px;
@@ -234,7 +242,9 @@ label{
 /* Subscription ends */
 
 .rider {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px;
     background-color: #ffcc29;
@@ -242,7 +252,7 @@ label{
 
 .rider-left{
     width: 50%;
-    height: 40vh;
+    height: 45vh;
     align-content: center;
 }
 
